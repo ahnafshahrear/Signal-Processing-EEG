@@ -1,4 +1,4 @@
-module SeqCounter(q,clk,clear);
+module SequenceCounter(q,clk,clear);
 
 	input clk,clear;
 	output [3:0]q;

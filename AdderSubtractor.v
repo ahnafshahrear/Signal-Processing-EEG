@@ -1,4 +1,5 @@
 module AdderSubtactor(ans,cout,a,b,k);
+	
 	input [3:0]a,b;
 	input k;
 	output [3:0]ans;
@@ -9,4 +10,5 @@ module AdderSubtactor(ans,cout,a,b,k);
 	xor xr2(xb[2],b[2],k);
 	xor xr3(xb[3],b[3],k);
 	RippleAdder ra1(ans,cout,a,xb,k);
+	
 endmodule

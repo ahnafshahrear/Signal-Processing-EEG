@@ -1,4 +1,4 @@
-module Mod10(num,clk);
+module Mod10Counter(num,clk);
 	input clk;
 	output [3:0]num;
 	wire clear;

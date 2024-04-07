@@ -1,4 +1,5 @@
 module JkFlipFlop (q,qbar,j,k,clear,clk);
+	
 	input j,k,clear,clk;
 	output q,qbar;
 
